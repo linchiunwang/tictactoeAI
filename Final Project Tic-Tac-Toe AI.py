@@ -185,21 +185,4 @@ while playing:
         winner = Board.checkwin(Board.board)
         end_game_sequence()
 
-##Here are two tests for copy_board()
-'''
-test_board = []
-for i in range(3): 
-    test_board.append(["","",""])
-test_board[1][2] = "O"
-test_board[0][1] = "X"
-copy_board1 = copy_board(test_board) 
-if copy_board1 == test_board: 
-    print(True)
 
-test_board = []
-for i in range(3): 
-    test_board.append(["","",""])
-copy_board2 = copy_board(test_board) 
-if copy_board2 == test_board: 
-    print(True)
-'''
